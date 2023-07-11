@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="get_launch_arg" exec="get_launch_arg">
+        <param name="foo" value="5"/>
+    </node>
+</launch>
