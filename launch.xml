@@ -1,5 +1,8 @@
 <launch>
     <node pkg="get_launch_arg" exec="get_launch_arg">
-        <param name="foo" value="5"/>
+        <remap from="string_topic" to="/talker" />
+        <param name="test" value="51"/>
+        <remap from="hoge_topic" to="/hoge/topic" />
+        <param name="hoge" value="hogev"/>
     </node>
 </launch>
