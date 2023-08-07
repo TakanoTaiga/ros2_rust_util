@@ -1,9 +1,0 @@
-taigatakano@TaigaTakanonoMacBook-Pro ros_iv % ros2 launch ./src/get_launch_arg/launch.xml
-[INFO] [launch]: All log files can be found below /Users/taigatakano/.ros/log/2023-07-12-00-33-40-514136-TaigaTakanonoMacBook-Pro.local-31944
-[INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [get_launch_arg-1]: process started with pid [31945]
-[get_launch_arg-1] [INFO] [1689089620.608804173] [main]: param:"51"
-[get_launch_arg-1] [INFO] [1689089620.608820922] [main]: remap:"/talker"
-[get_launch_arg-1] [INFO] [1689089620.608855212] [main]: param:"12"
-[get_launch_arg-1] [INFO] [1689089620.608864336] [main]: remap:"abc_topic"
-[INFO] [get_launch_arg-1]: process has finished cleanly [pid 31945]
